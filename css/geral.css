@@ -113,6 +113,11 @@ body {
 
 .animais-lista li {
   cursor: pointer;
+  border: 2px solid transparent;
+}
+
+.animais-lista li:hover {
+  border: 2px solid #fb5;
 }
 
 .animais-lista::-webkit-scrollbar {
