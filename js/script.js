@@ -5,7 +5,7 @@ import Modal from "./modules/modal.js";
 import Tooltip from "./modules/tooltip.js";
 import DropdownMenu from "./modules/dropdown-menu.js";
 import MenuMobile from "./modules/menu-mobile.js";
-import initFuncionamento from "./modules/funcionamento.js";
+import Funcionamento from "./modules/funcionamento.js";
 import ScrollAnima from "./modules/scrollAnima.js";
 
 const scrollSuave = new ScrollSuave('[data-menu="suave"] a[href^="#"]');
@@ -39,4 +39,5 @@ dropdownMenu.init();
 const menuMobile = new MenuMobile("[data-menu='button']", "[data-menu='list']");
 menuMobile.init();
 
-initFuncionamento();
+const funcionamento = new Funcionamento("[data-semana]", "aberto");
+funcionamento.init();
